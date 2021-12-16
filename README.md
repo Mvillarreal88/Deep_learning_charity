@@ -19,6 +19,8 @@ The goal of this Charity funding predictor is to create an algorithm to predict 
 • For the second model I used 3 hidden layers. This time only pulling an accuracy of a higher 72.7 
 • For the last model I used 4 hidden layers. This time getting a higher 73.13.
 
+![Screenshot 2021-12-15 182742](https://user-images.githubusercontent.com/81705144/146285833-3095a808-0c95-45bf-97e6-3243657b775a.png)
+
 ### Summary:
 
 With these results I think going back and doing some more preprocessing would get a score that would be much higher as the layers only seemed to increase by 1%. Possibly dropping more columns that may not be entirely relevant to the model we need, or changing what we considered rare categorical values. 
