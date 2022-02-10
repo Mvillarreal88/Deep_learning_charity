@@ -7,9 +7,13 @@ The goal of this Charity funding predictor is to create an algorithm to predict 
 ### Preprocessing: 
 
 • We first start by loading in the CSV that contains over 30,000 organizations that have received funding from alphabet soup over the past few years. 
+
 • Now we know that our target is the column Is_Successful and whether this reads a yes or a no. 
+
 • Once we determine our target, we know that we need to drop some columns, this is the EIN and NAME columns. These are unrelated to our algorithm. 
+
 • We then attempt to trim the rare categorical values in our columns that have 10 or more unique values. And add a new name for this called other. 
+
 • Using get _dummies we then encode the categorical variables
 
 ### Compiling, Training, and Evaluating the Model:
